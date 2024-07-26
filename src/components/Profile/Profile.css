@@ -1,0 +1,27 @@
+.profile{
+    padding: 30px;
+}
+.cont1{
+    border: 1px solid rgb(126, 122, 122);
+    border-radius: 10px;
+    padding: 40px 30px;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.pic {
+    text-align: center;
+}
+.detail{
+    border-top: 1px solid grey;
+    padding: 10px 0px;
+}
+.det3{
+    border-bottom: 1px solid grey;
+}
+.form-label{
+    font-weight: 700;
+}

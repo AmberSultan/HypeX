@@ -1,10 +1,19 @@
 import './App.css';
-import Order from './components/Order';
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import Order from './components/Order/Order';
+import Profile from './components/Profile/Profile'
 
 function App() {
   return (
     <div className="App">
-     <Order/>
+     
+    <Router>
+      <Routes>
+        <Route path="/" element={<Order/>}></Route>
+        <Route path='/profile' element={<Profile/>}></Route>
+      </Routes>
+    </Router>
+    
     </div>
   );
 }
