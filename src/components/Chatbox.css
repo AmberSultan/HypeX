@@ -1,0 +1,44 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color:#ffffff;
+    border: none;
+
+  }
+  
+  .card-header {
+    padding: 10px;
+    /* background-color: #474545;
+    border-bottom: 1px solid #000000; */
+  }
+  
+  .card-footer {
+    padding: 10px;
+    /* background-color: #f7f7f7;
+    border-top: 1px solid #ccc; */
+  }
+  
+  .card .msg_body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  .type_msg {
+    /* flex: 1; */
+    background-color: transparent;
+    
+  }
+  @media (max-width: 320px){
+    textarea::placeholder{
+      font-size: 13px;
+    }
+  }
